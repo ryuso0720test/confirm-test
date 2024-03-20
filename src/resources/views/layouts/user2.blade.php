@@ -19,16 +19,7 @@
             FashionablyLate
         </a>
         <nav>
-          <ul class="header-nav">
-            @if (Auth::check())
-            <li class="header-nav__item">
-              <form class="form" action="/logout" method="post">
-                @csrf
-                <button class="header-nav__button">logout</button>
-              </form>
-            </li>
-            @endif
-          </ul>
+            <button class="header-nav__button user2"><a href="/login">login</a></button>
         </nav>
       </div>
     </div>

@@ -6,7 +6,6 @@
 
 @section('content')
 
-<?php print_r($contact) ?>
 <div class="confirm__content">
     <div class="confirm__heading">
     <h2>Confirm</h2>
@@ -105,7 +104,7 @@
 
         <div class="form__button">
             <button class="form__button-submit" type="submit" name="approve" value="1">送信</button>
-            <button class="form__button-submit" type="submit" name="reject" value="1">修正</button>
+            <button class="form__button-reject" type="submit" name="reject" value="1">修正</button>
         </div>
     </form>
 

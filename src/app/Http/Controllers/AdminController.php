@@ -8,14 +8,6 @@ use Illuminate\Http\Request;
 
 class AdminController extends Controller
 {
-    public function index()
-    {
-
-        $categories = Category::all();
-        $contacts = Contact::paginate(7);
-
-        return view('admin', compact('contacts','categories'));
-    }
 
     public function search(Request $request)
     {

@@ -144,7 +144,7 @@
     </div>
 
     <!-- お問い合わせ種類入力 -->
-    <div class="form__group">
+    <div class="form__group group-select">
         <div class="form__group-title">
             <span class="form__label--item">お問い合わせの種類</span>
             <span class="form__label--required">※</span>
