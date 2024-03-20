@@ -2,18 +2,18 @@
 
 ## Docker ビルド
 
-1.git clone https://github.com/ryuso0720test/confirm-test.git
-2.docker-compose up -d --build
+1. git clone https://github.com/ryuso0720test/confirm-test.git
+2. docker-compose up -d --build
 
 \*MySQL は、OS によって起動しない場合があるのでそれぞれの PC にあわせて docker-compose.yml ファイルを編集してください。
 
 ## Laravel 環境構築
 
-1.docker-compose exec php bash
-2.composer install
-3..env ファイルの編集
-4.php artisan migrate
-5.php artisan db:seed
+1. docker-compose exec php bash
+2. composer install
+3. .env ファイルの編集
+4. php artisan migrate
+5. php artisan db:seed
 
 ## 使用技術
 
@@ -27,4 +27,4 @@
 - 開発環境： http://localhost/
 - phpMyAdmin：http://localhost:8080/
 
-## ER図
+## ER 図
