@@ -29,4 +29,5 @@
 
 ## ER 図
 
-![alt text](test.png)
+![test](https://github.com/ryuso0720test/confirm-test/assets/155881611/a7cef40b-28b4-4dff-beac-e9744b410305)
+
