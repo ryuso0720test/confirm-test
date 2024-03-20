@@ -105,3 +105,22 @@ td {
     color: #8B7969;
     padding-left: 10px;
 }
+
+.search__item-date {
+    border: solid 1px #E3DED9;
+    color: #8B7969;
+}
+
+.search__btn {
+    background-color: #8B7969;
+    border: #ddd solid 1px;
+    color: #fff;
+    padding: 0 20px;
+}
+
+.search__reset {
+    padding: 0 20px;
+    border: #ddd solid 1px;
+    background-color: #D9C6B5;
+    color: #fff;
+}
